@@ -82,7 +82,7 @@ function continueGame() {
         console.log(chalk.green('"GOOD JOB, YOU SURVIVED!!! '));
         
       } else if (action2 === 'help Him?') {
-        console.log(chalk.red('WHY WOULD YOU GIVE HIM THE GUN???? \n GAME OVER!!!'));
+        console.log(chalk.red('HE TURNS OUT TO BE INFECTED AND BITES YOU ? \n GAME OVER!!!'));
         process.exit();
       } else if (action2 === 'Give Him the Gun') {
         console.log(chalk.red('WHY WOULD YOU GIVE HIM THE GUN???? \n GAME OVER!!!'));
